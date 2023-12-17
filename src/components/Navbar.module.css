@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navLinks {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navLink {
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navLink:hover {
+    color: #ffcc00;
+  }
+  
+  @media (max-width: 768px) {
+    .navLinks {
+      flex-direction: column;
+      align-items: center; 
+    }
+  
+    .navLink {
+      margin-right: 0;
+      margin-bottom: 10px;
+      text-align: center; 
+    }
+  }
+  

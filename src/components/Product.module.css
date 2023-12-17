@@ -1,0 +1,54 @@
+/* YourComponent.module.css */
+
+.container {
+  cursor: pointer;
+
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjust as needed */
+  }
+  
+  .product {
+    width: 250px; /* Adjust as needed */
+    margin: 16px;
+    border: 1px solid #ddd;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+    transition: 0.2s;
+  }
+
+  .image:hover {
+    transform: scale(1.1);
+  }
+
+  .info {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .info button {
+    border: none;
+    padding: 10px;
+    transition: 0.2;
+  }
+  
+
+  .info button:hover {
+    background-color: rgb(59, 58, 58);
+    color: white;
+    cursor: pointer;
+  }
